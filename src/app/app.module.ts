@@ -4,7 +4,8 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
-import {MatButtonModule, MatMenuModule, MatInputModule, MatIconModule} from '@angular/material';
+import { MatButtonModule, MatMenuModule, MatInputModule } from '@angular/material';
+import { MatIconModule } from '@angular/material/icon';
 @NgModule({
   declarations: [
     AppComponent
