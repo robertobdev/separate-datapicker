@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+.mat-menu-content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.matYear>.mat-menu-content {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  height: 15rem;
+}
+
+.matDay>.mat-menu-content {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  height: 15rem;
+}
